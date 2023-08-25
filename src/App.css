@@ -3,6 +3,8 @@
 .App {
     width: 100vw;
     height: 100vh;
+    display:flex;
+    background-image: url("Static/bgimg.jpg");
 }
 
 body{
@@ -10,6 +12,7 @@ body{
   margin: 0;
 }
 
+/* SIDEBAR COMPONENT STYLES */
 .Sidebar{
   height:100%;
   width : 288px;
@@ -22,6 +25,7 @@ body{
   width:100%;
 }
 
+/* SIDEBAR NAV ITEMS */
 .SidebarList .SidebarListItem{
 font-family: Work Sans;
 font-size: 20px;
@@ -54,6 +58,8 @@ padding: 15px;
   flex:70%;
 }
 
+/* SIDEBAR TITLE AND ICON */
+
 #SidebarTitle {
 display:flex;
 flex-direction:row;
@@ -77,4 +83,98 @@ justify-content: left;
   margin-left: 35px;
   justify-content: left;
 
+}
+
+
+/* SEARCH COMPONENT */
+
+.search {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 27px;
+  margin-left:33px;
+}
+
+.search-input {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: #ffff;
+  padding: 0.2rem 1rem;
+  margin-right: -2rem;
+  width: 435px;
+  height: 50px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.search-input:hover, .search-input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search-input:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.search-input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: fixed;
+}
+
+.search-input:focus + .search-button {
+  background-color: transparent;
+}
+
+.search-button {
+  border: none;
+  display:flex;
+  align-items: top;
+  background-color: transparent;
+  margin-top: 1em;  
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 1.5em;
+  width: 1.5em;
+  fill: white;
+  margin-left: -0.5em;  
+}
+
+/* CONNECT BUTTON STYLE  */
+
+.btn {
+  width: 156px;
+  height: 52px;
+  border-radius: 20px;
+  background: linear-gradient(95.24deg, #7C0F35 7.59%, #581266 104.01%);
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight:600;
+  line-height: 24px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  margin-top:27px;
+  margin-left: 500px;
+}
+
+.btn:hover {
+  transform: translateY(1px);
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 5);
 }
