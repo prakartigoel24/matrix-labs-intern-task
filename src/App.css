@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.App {
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.Sidebar{
+  height:100%;
+  width : 288px;
+  background-color : #292929;
+}
+
+.SidebarList{
+  height: auto;
+  padding:0;
+  width:100%;
+}
+
+.SidebarList .SidebarListItem{
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(247, 249, 249, 1);
+list-style-type: none;
+display:flex;
+flex-direction:row;
+align-items: center;
+justify-content:center;
+padding: 15px;
+}
+.SidebarList .SidebarListItem:hover{
+  background-color:rgba(243, 0, 80, 1);
+}
+
+.SidebarList #active{
+  background-color:rgba(243, 0, 80, 1);
+}
+.SidebarListItem #icon{
+  flex:30%;
+  display:grid;
+  place-items:center;
+} 
+
+.SidebarListItem #title{
+  flex:70%;
+}
+
+#SidebarTitle {
+display:flex;
+flex-direction:row;
+justify-content: left;
+}
+#SidebarTitle p{
+  font-family: Pacifico;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;  
+  margin-left: 20px;
+  margin-top: 23px;
+  color: rgba(255, 255, 255, 0.7)
+
+}
+
+#SidebarTitle #SidebarTitleIcon{
+  margin-top: 35px;
+  margin-left: 35px;
+  justify-content: left;
+
+}

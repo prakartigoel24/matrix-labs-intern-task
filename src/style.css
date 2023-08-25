@@ -1,0 +1,133 @@
+.darkleft-side {
+    background-color: #292929;
+    border-radius: 0px 32px 32px 0px;
+    height: 982px;
+    position: relative;
+    width: 288px;
+  }
+  
+  .darkleft-side .overlap-group {
+    height: 87px;
+    left: 0;
+    position: absolute;
+    top: 150px;
+    width: 288px;
+  }
+  
+  .darkleft-side .rectangle {
+    background-color: #f30050;
+    height: 65px;
+    left: 0;
+    position: absolute;
+    top: 22px;
+    width: 288px;
+  }
+  
+  .darkleft-side .explore-tab {
+    border-radius: 100px;
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 162px;
+  }
+  
+  .darkleft-side .text-wrapper {
+    color: var(--cultured-grey);
+    font-family: var(--20-28-regluar-font-family);
+    font-size: var(--20-28-regluar-font-size);
+    font-style: var(--20-28-regluar-font-style);
+    font-weight: var(--20-28-regluar-font-weight);
+    height: 28px;
+    left: 60px;
+    letter-spacing: var(--20-28-regluar-letter-spacing);
+    line-height: var(--20-28-regluar-line-height);
+    position: absolute;
+    top: 39px;
+    white-space: nowrap;
+  }
+  
+  .darkleft-side .fluent-pair {
+    height: 24px;
+    left: 16px;
+    position: absolute;
+    top: 42px;
+    width: 24px;
+  }
+  
+  .darkleft-side .overlap {
+    height: 117px;
+    left: 16px;
+    position: absolute;
+    top: 15px;
+    width: 175px;
+  }
+  
+  .darkleft-side .home-tab-active {
+    border-radius: 100px;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 51px;
+    width: 146px;
+  }
+  
+  .darkleft-side .div {
+    color: var(--cultured-grey);
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    height: 28px;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 39px;
+    white-space: nowrap;
+  }
+  
+  .darkleft-side .ic-baseline-token {
+    height: 24px;
+    left: 16px;
+    position: absolute;
+    top: 93px;
+    width: 24px;
+  }
+  
+  .darkleft-side .text-wrapper-2 {
+    color: #ffffffb2;
+    font-family: "Pacifico-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 69px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .darkleft-side .frame {
+    height: 24px;
+    left: 44px;
+    position: absolute;
+    top: 833px;
+    width: 112px;
+  }
+  
+  .darkleft-side .vector {
+    height: 29px;
+    left: 35px;
+    position: absolute;
+    top: 29px;
+    width: 25px;
+  }
+  
+  .darkleft-side .rectangle-2 {
+    background-color: #f30050;
+    height: 68px;
+    left: 0;
+    position: absolute;
+    top: 913px;
+    width: 1516px;
+  }
+  
