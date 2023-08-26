@@ -31,7 +31,16 @@ function Sidebar() {
             )
         })}
         </ul>
+
+        
+        <div id='socials'>
+        <Icon icon="devicon-plain:facebook" color="#f30050" width="24" height="24" />
+        <Icon icon="devicon-plain:linkedin" color="#f30050" width="24" height="24" />
+        <Icon icon="fa:twitter-square" color="#f30050" width="24" height="24" />        
+        </div>
+
     </div>
+    
   )
 }
 
